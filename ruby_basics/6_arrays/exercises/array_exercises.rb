@@ -47,13 +47,13 @@ end
 
 def array_difference(original, comparison)
   # return an array of elements from the original array that are not in the comparison array
-  
+
   original - comparison
 end
 
 def empty_array?(array)
   # return true if the array is empty
-  
+
   array.empty?
 end
 
@@ -65,13 +65,13 @@ end
 
 def array_length(array)
   # return the length of the array
-  
+
   array.length
 end
 
 def include?(array, value)
   # return true if the array includes the value
-  
+
   array.include?(value)
 end
 
